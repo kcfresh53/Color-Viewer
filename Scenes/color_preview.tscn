@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhsrl84r0g7gx"]
+
+[ext_resource type="Script" path="res://Scripts/color_preview.gd" id="1_injox"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jwnv0"]
+border_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="ColorPreview" type="CenterContainer"]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_injox")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 2
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 50
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer"]
+clip_children = 1
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jwnv0")
+
+[node name="BGcolor" type="ColorRect" parent="MarginContainer/PanelContainer"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+
+[node name="BGtoggle" type="Button" parent="MarginContainer"]
+layout_mode = 2
+tooltip_text = "Adjust background tile"
+mouse_default_cursor_shape = 2
+flat = true
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 50
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer2"]
+clip_children = 1
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jwnv0")
+
+[node name="FGcolor" type="ColorRect" parent="MarginContainer2/PanelContainer"]
+custom_minimum_size = Vector2(150, 150)
+layout_mode = 2
+mouse_filter = 1
+color = Color(0.111197, 0.111197, 0.111197, 1)
+
+[node name="FGtoggle" type="Button" parent="MarginContainer2"]
+layout_mode = 2
+tooltip_text = "Adjust foreground tile"
+mouse_default_cursor_shape = 2
+flat = true

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="path_1" />
+    <path d="M0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Icon 128">
+    <path d="M128 0L128 0L128 128L0 128L0 0L128 0Z" id="Icon-128" fill="#FFFFFF" fill-opacity="0" stroke="none" />
+    <g id="Colors-Mask" transform="translate(4 4)" clip-path="url(#clip_1)">
+      <path d="M0 60C0 26.8629 26.8629 0 60 0C93.1371 0 120 26.8629 120 60C120 93.1371 93.1371 120 60 120C26.8629 120 0 93.1371 0 60Z" id="Mask" fill="#FFECB3" fill-rule="evenodd" stroke="none" />
+      <g clip-path="url(#clip_2)">
+        <g id="Colors" transform="translate(-4.346714 -4.346718)">
+          <path d="M64.3467 64.3467L91.3467 0.346718L37.3467 0.346718L64.3467 64.3467Z" id="Triangle" fill="#E88BFF" fill-rule="evenodd" stroke="none" />
+          <path d="M64.3467 64.3467L91.3467 128.347L37.3467 128.347L64.3467 64.3467Z" id="Triangle-Copy" fill="#B5E742" fill-rule="evenodd" stroke="none" />
+          <path d="M64.3467 64.3467L128.693 38.1838L90.5097 7.62939e-06L64.3467 64.3467Z" id="Triangle-Copy-6" fill="#FC4850" fill-rule="evenodd" stroke="none" />
+          <path d="M64.3467 64.3467L38.1838 128.693L0 90.5097L64.3467 64.3467Z" id="Triangle-Copy-7" fill="#59ADFF" fill-rule="evenodd" stroke="none" />
+          <path d="M64.3467 64.3467L38.1838 0L0 38.1838L64.3467 64.3467Z" id="Triangle-Copy-4" fill="#CF60EA" fill-rule="evenodd" stroke="none" />
+          <path d="M64.4386 64.2548L128.785 90.4178L90.6016 128.602L64.4386 64.2548Z" id="Triangle-Copy-5" fill="#FAE800" fill-rule="evenodd" stroke="none" />
+          <path d="M64.3467 64.3467L0.346714 37.3467L0.346714 91.3467L64.3467 64.3467Z" id="Triangle-Copy-2" fill="#536DFE" fill-rule="evenodd" stroke="none" />
+          <path d="M64.3467 64.3467L128.347 37.3467L128.347 91.3467L64.3467 64.3467Z" id="Triangle-Copy-3" fill="#F8C822" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+    <path d="M31 64C31 45.7746 45.7746 31 64 31C82.2254 31 97 45.7746 97 64C97 82.2254 82.2254 97 64 97C45.7746 97 31 82.2254 31 64Z" id="Oval-Copy" fill="#FFFFFF" fill-opacity="0.29803923" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+    <path d="M50 64C50 56.268 56.268 50 64 50C71.732 50 78 56.268 78 64C78 71.732 71.732 78 64 78C56.268 78 50 71.732 50 64Z" id="Oval" fill="#FFFFFF" fill-opacity="0.69803923" fill-rule="evenodd" stroke="none" clip-path="url(#clip_1)" />
+  </g>
+</svg>
